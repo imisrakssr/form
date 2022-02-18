@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.main{
+	width: 100%;
+}
+.main h1{
+	font-size: 40px;
+	color: white;
+	padding-top: 10px;
+    padding-left: 570px;
+	position: relative;
+}
+.img-bg img{
+	width: 224vh;
+    height: 100vh;
+    position: absolute;
+}
+.bg{
+	position: relative;
+    height: 480px;
+    width: 1050px;
+    background-color: white;
+    margin: -40px auto;
+    top: 40px; 
+}
+.flex{
+	display: flex;
+}
+.left, .right{
+flex-basis: 50%;
+}
+/*left design start*/
+.left{
+    height: 480px;
+    width: 525px;
+    background-color: #495371;	
+}
+.left h2{
+	font-weight: 600;
+    font-size: 33px;
+    color: white;
+    padding-bottom: 12px;
+    padding-top: 108px;
+    padding-left: 55px;
+}
+.left p{
+	padding-left: 55px;
+    color: #D1D1D1;
+    line-height: 32px;
+    padding-right: 77px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.left a i{
+	padding-left: 55px;
+	color: white;
+	transition: 1s;
+}
+.left a i:hover{
+	color: #00e673;
+	margin-left: 10px;
+	transition: 0.5s;
+}
+/*left design end*/
+
+/*right design start*/
+.right{
+	padding-left: 40px;
+}
+.right h2{
+	text-transform: capitalize;
+    color: #00e673;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.right p{
+    color: #669999;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+/*right design end*/
+
+/*form design*/
+.form-group{
+	padding-bottom: 17px;
+}
+.input{
+	padding: 8px 0px;
+}
+/*focus instead of hover */
+.input:focus{
+	outline-color: #00e673;
+}
+.input:focus::placeholder{
+	color: #004d26;
+}
+.gndr{
+	margin: 2px 0px;
+}
+.gndr span{
+	margin-right: 10px;
+}
+.gndr label{
+	margin-right: 11px;
+}
+.slct{
+	margin-bottom: 2px;
+}
+.control{
+	padding: 9px 7px;
+}
+.form-group label{
+	font-size: 14px;
+}
+.form-group button{
+	border: none;
+    padding: 10px 116px;
+    color: white;
+    font-size: 15px;
+    background-color: #00e673;
+}
+.btn{
+	margin-top: -9px;
+}
+.form-group button:hover{
+	background-color: #404040;
+	color: #00e673;
+	cursor: pointer;
+
+}
+/*form design end*/
